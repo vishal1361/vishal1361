@@ -36,9 +36,17 @@ I build scalable full-stack platforms: distributed systems, real-time sync, work
 
 ## 🧰 Tech Stack
 
-**Languages:** JavaScript · TypeScript · Java · Python · SQL (Postgres) · C/C++
-**Frameworks:** React · AG-Grid · React Query · Node.js · Spring Boot · Ant Design
-**Infra & Data:** Redis · ClickHouse · WebSockets · AWS (SQS, Kinesis) · Docker · Datadog · Git
+<p>
+  <img src="https://skillicons.dev/icons?i=js,ts,java,py,cpp,react,nodejs,spring,postgres,redis,docker,aws,git" />
+</p>
+<p>
+  <img src="https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=black" />
+  <img src="https://img.shields.io/badge/AG--Grid-0E2A47?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ant_Design-0170FE?style=for-the-badge&logo=antdesign&logoColor=white" />
+  <img src="https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white" />
+  <img src="https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white" />
+</p>
 
 ## 🏆 Achievements
 
@@ -58,9 +66,3 @@ I build scalable full-stack platforms: distributed systems, real-time sync, work
 
 <!-- Add LinkedIn badge once the correct profile URL is confirmed -->
 
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vishal1361&show_icons=true&hide_border=true" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vishal1361&layout=compact&hide_border=true" height="160" />
-</p>
