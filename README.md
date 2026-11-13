@@ -9,9 +9,6 @@ I build scalable full-stack platforms: distributed systems, real-time sync, work
 - 🚀 Most of my work is on performance, reliability and observability
 
 🌐 **More about my work, projects and experience: [vishal1361.github.io](https://vishal1361.github.io)**
-
-> My Rocketlane work lives in a private organization, so it isn't in my public repos.
-
 ---
 
 ## 🛠️ Personal Projects
