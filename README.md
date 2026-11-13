@@ -1,6 +1,6 @@
 # Hi, I'm Vishal 👋
 
-**Software Development Engineer II at [Rocketlane](https://www.rocketlane.com)** · Chennai, India
+**Software Development Engineer II at [Rocketlane](https://www.rocketlane.com)** · Chennai, India · 🌐 [vishal1361.github.io](https://vishal1361.github.io)
 
 I build scalable full-stack platforms: distributed systems, real-time sync, workflow automation and analytics data pipelines. Much of my work goes into making products faster, more reliable and easier to observe.
 
@@ -69,6 +69,7 @@ I build scalable full-stack platforms: distributed systems, real-time sync, work
 
 ## 📫 Reach me
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-vishal1361.github.io-6EF2C0?logo=githubpages&logoColor=black)](https://vishal1361.github.io)
 [![Email](https://img.shields.io/badge/Email-sachanvishal.092%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:sachanvishal.092@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-vishal2010073-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishal2010073)
 [![LeetCode](https://img.shields.io/badge/LeetCode-vishal1361-FFA116?logo=leetcode&logoColor=black)](https://leetcode.com/u/vishal1361/)
