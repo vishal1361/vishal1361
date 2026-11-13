@@ -2,11 +2,13 @@
 
 **Software Development Engineer II at [Rocketlane](https://www.rocketlane.com)** · Chennai, India
 
-I build scalable full-stack platforms: distributed systems, real-time sync, workflow automation and analytics data pipelines. The products I've worked on are used by hundreds of paying enterprise customers, and much of my work goes into making them faster, more reliable and easier to observe.
+I build scalable full-stack platforms: distributed systems, real-time sync, workflow automation and analytics data pipelines. Much of my work goes into making products faster, more reliable and easier to observe.
 
-- 🚀 Cut Resource Management API P95 latency from **30–50s to 2–4s**. The work rolled out to **600+ paid accounts** and helped close a **$750K+** enterprise deal.
+- 👥 Leading a team of **6 engineers** across **4 features**
+- 🔄 Built a **CDC pipeline** from Postgres to Snowflake and BigQuery (Debezium, Kafka, Flink) and backfilled **700M+ rows** of historic data
+- 🚀 Cut Resource Management API P95 latency from **30–50s to 2–4s**. The changes rolled out to **600+ paid accounts**.
 - 💸 Built **Expense Management** (adopted by **250+** premium and enterprise accounts) and the **Revenue Recognition Ledger**
-- 📈 Set up Datadog observability for SQS, Kinesis, reconciliation pipelines and APIs, and built an automated production-triage agent that posts root-cause summaries to Slack every day
+- 📈 Set up Datadog observability for SQS, Kinesis, reconciliation pipelines and APIs, and built an agent that posts a daily summary of production failures to Slack
 - 🧩 Designed a hierarchical Custom Fields system and a trigger → condition → action automation framework
 
 ---
@@ -17,11 +19,12 @@ I build scalable full-stack platforms: distributed systems, real-time sync, work
 
 | Project | Stack | Highlights |
 |---|---|---|
-| **Revenue Recognition Ledger** · [docs](https://help.rocketlane.com/support/solutions/articles/67000750715-managing-the-revenue-recognition-ledger-in-rocketlane) | React, AG-Grid, Redis, ClickHouse | Dual-view AG-Grid (server-side row model + multi-level tree grouping) with virtual scrolling and server-driven pagination; Redis-backed idempotency for concurrent bulk writes; ClickHouse aggregations for system-vs-recognized revenue; RBAC enforced across single, bulk and export paths. Helped win multiple enterprise deals. |
+| **CDC Data Pipeline** | AWS, Debezium, Kafka, Flink, Snowflake, BigQuery | Change data capture from Postgres through Debezium and Kafka, transformed in Flink and written by sink connectors to Snowflake and BigQuery, with logging at each stage. Handles future DDL changes without pipeline updates. Backfilled 700M+ rows of historic data into Snowflake. |
+| **Revenue Recognition Ledger** · [docs](https://help.rocketlane.com/support/solutions/articles/67000750715-managing-the-revenue-recognition-ledger-in-rocketlane) | React, AG-Grid, Redis, ClickHouse | Dual-view AG-Grid (server-side row model + multi-level tree grouping) with virtual scrolling and server-driven pagination; Redis-backed idempotency for concurrent bulk writes; ClickHouse aggregations for system-vs-recognized revenue; RBAC enforced across single, bulk and export paths. Used in several enterprise deals. |
 | **Expense Management** · [demo](https://youtu.be/VTu8t8TQhp0) | React, AG-Grid, WebSockets, RBAC | Real-time grid with Project / Report / Expense grouping and WebSocket cell updates; multi-level approval chain (auto, owner, custom workflow, force-approve) modeled as a state machine with stage-scoped RBAC. Adopted by 250+ paid accounts. |
 | **Resource Management Revamp** | Spring Boot, SQL | Redesigned the data-access layer and query execution paths: P95 went from 30–50s to 2–4s for 600+ paid accounts. |
 | **Automation Platform & Custom Fields** · [demo](https://youtu.be/9s3H41xwoog) | Java, Spring Boot, React | Trigger-condition-action framework with reusable workflows; built 20+ workflow triggers; extensible hierarchical custom fields. |
-| **Production Triage Agent** | Datadog, Slack | Reads observability metrics and posts a daily Slack report with root-cause summaries of the previous 24 hours of failures. |
+| **Production Triage Agent** | Datadog, Slack | Reads observability metrics and posts a daily Slack summary of failures from the previous 24 hours. |
 
 ## 🛠️ Personal Projects
 
@@ -46,6 +49,11 @@ I build scalable full-stack platforms: distributed systems, real-time sync, work
   <img src="https://img.shields.io/badge/Ant_Design-0170FE?style=for-the-badge&logo=antdesign&logoColor=white" />
   <img src="https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white" />
   <img src="https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white" />
+  <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
+  <img src="https://img.shields.io/badge/Debezium-91D443?style=for-the-badge&logoColor=black" />
+  <img src="https://img.shields.io/badge/Apache_Flink-E6526F?style=for-the-badge&logo=apacheflink&logoColor=white" />
+  <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white" />
+  <img src="https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white" />
 </p>
 
 ## 🏆 Achievements
@@ -62,7 +70,6 @@ I build scalable full-stack platforms: distributed systems, real-time sync, work
 ## 📫 Reach me
 
 [![Email](https://img.shields.io/badge/Email-sachanvishal.092%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:sachanvishal.092@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-vishal2010073-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishal2010073)
 [![LeetCode](https://img.shields.io/badge/LeetCode-vishal1361-FFA116?logo=leetcode&logoColor=black)](https://leetcode.com/u/vishal1361/)
-
-<!-- Add LinkedIn badge once the correct profile URL is confirmed -->
 
